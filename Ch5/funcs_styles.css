@@ -1,0 +1,38 @@
+/*
+ * Using functions in SASS
+ */
+h1 {
+  color: red;
+  background-color: gray; }
+  h1:hover {
+    color: blue;
+    background-color: yellow; }
+
+h2 {
+  color: #ff6666; }
+  h2:hover {
+    color: blue;
+    background-color: yellow; }
+
+h3 {
+  color: #ff9999; }
+  h3:hover {
+    color: blue;
+    background-color: gray; }
+
+h4 {
+  color: #ffcccc; }
+  h4:hover {
+    background-color: blue; }
+
+.mypara {
+  -mox-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -ms-border-border: 12px;
+  border-radius: 12px;
+  border-color: #846262;
+  border-width: 5px;
+  border-style: solid;
+  padding: 15px; }
+
+/*# sourceMappingURL=funcs_styles.css.map */

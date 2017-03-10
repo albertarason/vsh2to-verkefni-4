@@ -1,0 +1,34 @@
+/*
+ * SASS Operators example
+ */
+
+
+$gender: boy;
+$iflitur: if ($gender=="boy", green, yellow);
+$litur: hotpink;
+$litur2: black;
+$basepadding: 15px;
+$basethickness: 5px;
+
+.mypara{
+	color: $litur;
+	border: $basethickness dotted $litur;
+	padding: $basepadding $basepadding+15;
+
+	&:hover{
+		color: $litur2;
+		border: (basethickness +10)/2 dotted $litur;
+		padding: $basepadding;
+	}
+}
+
+h1{
+	color: iflitur;
+	border:2px solid black;
+	padding:5px;
+
+	&:hover{
+		color: red;
+		border: 2px solid red;
+	}
+}

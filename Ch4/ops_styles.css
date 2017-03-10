@@ -1,0 +1,21 @@
+/*
+ * SASS Operators example
+ */
+.mypara {
+  color: hotpink;
+  border: 5px dotted hotpink;
+  padding: 15px 30px; }
+  .mypara:hover {
+    color: black;
+    border: basethickness10/2 dotted hotpink;
+    padding: 15px; }
+
+h1 {
+  color: iflitur;
+  border: 2px solid black;
+  padding: 5px; }
+  h1:hover {
+    color: red;
+    border: 2px solid red; }
+
+/*# sourceMappingURL=ops_styles.css.map */

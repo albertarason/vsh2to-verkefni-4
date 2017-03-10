@@ -1,0 +1,34 @@
+/*
+ * SASS allows style rules to be nested inside of other rules, which causes
+ * the nested rules to only apply within the outer rule's selector
+ */
+
+
+$litur: green;
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+
+	p{
+        font-family: Times;
+		font-size: 20px;
+	}
+
+	p.mypara{
+		font-family: "Courier New";
+		font-size: 20px;
+	}
+
+}
+
+
+.mypara{
+	color:$litur;
+	border: 1px solid $litur;
+	padding: 15px;
+
+	&:hover{
+		color: darken($litur, 30%);
+		border: 1px solid darken($litur, 30%);
+	}
+}

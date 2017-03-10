@@ -1,0 +1,19 @@
+/*
+ * SASS mixins are declared with the @mixin directive
+ * and used with the @include directive
+ */
+header {
+  color: purple;
+  border: 2px dotted purple;
+  padding: 1em; }
+  header:hover {
+    border: 3px dotted pink; }
+
+footer {
+  color: purple;
+  border: 2px dotted purple;
+  padding: 1em; }
+  footer:hover {
+    border: 3px dotted pink; }
+
+/*# sourceMappingURL=mixin_styles.css.map */

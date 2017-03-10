@@ -1,0 +1,20 @@
+/* 
+ * SASS Variables are defined with a $ character
+ * and can have different kinds of data types: color, string, boolean, multi-value
+ */
+/* 
+ * SASS Variables are defined with a $ character
+ * and can have different kinds of data types: color, string, boolean, multi-value
+ */
+h1, h2 {
+  color: olive; }
+
+.mypara {
+  font-size: 25px;
+  border: 1px solid olive;
+  padding: 30px 30px 30px 30px; }
+
+.mypara:after {
+  content: " another paragraph"; }
+
+/*# sourceMappingURL=import_styles.css.map */

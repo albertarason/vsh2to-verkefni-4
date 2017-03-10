@@ -1,0 +1,25 @@
+/* 
+ * SASS Variables are defined with a $ character
+ * and can have different kinds of data types: color, string, boolean, multi-value
+ */
+
+$litur1: olive;
+$litur2: olive;
+$strengur: " another paragraph";
+$fontsize: 25px;
+$border: 1px solid $litur1;
+$padding: 30px 30px 30px 30px;
+
+h1, h2 {
+	color:$litur1;
+}
+
+.mypara{
+	font-size: $fontsize;
+	border: $border;
+	padding: $padding;
+}
+
+.mypara:after{
+	content: $strengur;
+}

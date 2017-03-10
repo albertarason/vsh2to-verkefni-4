@@ -1,0 +1,53 @@
+/*
+ * Using functions in SASS
+ */ 
+
+$litur:red;
+$litur2:blue;
+
+@mixin border-radius($radius: 12px){
+	-mox-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-ms-border-border: $radius;
+	border-radius: $radius;
+}
+
+
+h1{
+	color:$litur;
+	background-color: grayscale(invert($litur));
+	&:hover{
+		color:$litur2;
+		background-color: invert($litur2);
+	}
+}
+h2{
+	color:lighten($litur, 20%);
+	&:hover{
+		color:$litur2;
+		background-color: invert($litur2);
+	}
+}
+h3{
+	color:lighten($litur, 30%);
+	&:hover{
+		color:$litur2;
+		background-color: grayscale(invert($litur2));
+	}
+
+}
+h4{
+	color:lighten($litur, 40%);
+	&:hover{
+		background-color: $litur2;
+	}
+
+}
+
+.mypara{
+	@include border-radius;
+	border-color: hsl(hue($litur), 15%, 45%);
+	border-width: 5px;
+	border-style: solid;
+	padding:15px;
+}

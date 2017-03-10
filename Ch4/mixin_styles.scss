@@ -1,0 +1,25 @@
+/*
+ * SASS mixins are declared with the @mixin directive
+ * and used with the @include directive
+ */
+
+@mixin mixprufa{
+	border:2px dotted purple;
+	padding: 1em;
+
+	&:hover{
+		border:3px dotted pink;
+	}
+}
+
+
+
+header{
+	color: purple;
+	@include mixprufa;
+}
+
+footer{
+	color: purple;
+	@include mixprufa;
+}
